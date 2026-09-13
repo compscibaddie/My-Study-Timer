@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+body > .timer-container{
+    background-color: red;
+    display: inline-block;
+    height: 250px;
+    width: 300px;
+    justify-content: center;
+}
+.timer-container > .start-button{
+    background-color: green;
+    border: black solid 1px;
+}
+.timer-container > .stop-button{
+    background-color: red;
+    border: black solid 1px;
+}
+.timer-container > .reset-button{
+    background-color: blue;
+    border: black solid 1px;
+}
